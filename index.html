@@ -50,17 +50,25 @@
 
         <div class="col-md-7"><!-- MAIN CONTENT -->
           <div class="container-fluid" id="main">
-            <h2>Summary of Project: Twitch API Metrics</h2>
-            <p>The purpose of this project was to provide insight to potential new streamers and game developers
-              on how the different metrics that define streamers/games' influence on Twitch.tv changes over time
-              and where there might be the most room for market development. Data was compiled every hour after
-              making JSON requests to the Twitch API. Due to the scope and timeline of the project, data was collected
-              over the course of one week.</p>
-             <p>After accumulating the data, data manipulation and data frame creation was done using Pandas.
-               Next, Matplotlib was used to plot available data such as Total Views for the Top Games endpoint,
-               Views over Time, Streamers over Time, etc. The site provides the source data and visualizations created
-               as part of this analysis, as well as conclusions and insights that were derived from this
-               analysis. </p>
+            <h2>Viewers over Time for Top 5 Games</h2>
+
+            <div class = "row">
+              <div class="col-lg-12">
+                <div class="thumbnail" id="main visual">
+                  <a href="https://romyrobi.github.io/TwitchProject-Plot4/">
+                    <img src="https://github.com/mbhimasani/Project-1/blob/master/TotalViews%20-%20Top5.png?raw=true"
+                    alt="Pie Chart" style="width:100%">
+                    <div class="caption">
+                      <p></p>
+                    </div>
+                 </a>
+                </div>
+              </div>
+            </div>
+
+            <p>The purpose of this pie chart was to provide insight on how the number of streamers varies
+              per game. This is especially interesting when it is compared to the viewership pie chart which
+              contains how viewership is shared amonst the top games.
           </div>
         </div><!--END MAIN CONTENT -->
 
@@ -69,7 +77,7 @@
           <h2>Visualizations</h2>
 
           <div class = "row">
-            <div class="col-lg-6">
+            <div class="col-lg-6 col-md-6 col-sm-3">
               <div class="thumbnail">
                 <a href="https://romyrobi.github.io/TwitchProject-Plot1">
                   <img src="https://raw.githubusercontent.com/mbhimasani/Project-1/master/Charts/Average%20Streamers%20per%20Game%20PieChart(Edit).png"
@@ -81,7 +89,7 @@
               </div>
             </div>
 
-            <div class="col-lg-6">
+            <div class="col-lg-6 col-md-6 col-sm-3">
               <div class="thumbnail">
                 <a href="https://romyrobi.github.io/TwitchProject-Plot2/">
                   <img src="https://github.com/mbhimasani/Project-1/blob/master/Charts/Average%20Viewers%20per%20Game%20PieChart.png?raw=true"
@@ -93,7 +101,7 @@
               </div>
             </div>
 
-            <div class="col-lg-6">
+            <div class="col-lg-6 col-md-6 col-sm-3">
               <div class="thumbnail">
                 <a href="https://romyrobi.github.io/TwitchProject-Plot3/">
                   <img src="https://github.com/mbhimasani/Project-1/blob/master/Charts/SvV%20per%20Game%200to600%20Streamers.png?raw=true"
@@ -105,8 +113,8 @@
               </div>
             </div>
 
-            <div class="col-lg-6">
-              <div class="thumbnail">
+            <div class="col-lg-6 col-md-6 col-sm-3">
+              <div class="thumbnail" id="on">
                 <a href="https://romyrobi.github.io/TwitchProject-Plot4/">
                   <img src="https://github.com/mbhimasani/Project-1/blob/master/TotalViews%20-%20Top5.png?raw=true"
                   alt="Pie Chart" style="width:100%">
